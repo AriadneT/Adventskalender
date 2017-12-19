@@ -1,0 +1,18 @@
+body {
+    background       : no-repeat;
+	background-image : url('../../../../../Adventskalender/Resources/Public/Images/Christmas_tree.jpg');
+    background-size  : cover;
+    background-color : red;
+}
+
+h2 {
+    color : lightgreen;
+}
+
+footer {
+	color            : lightgreen;
+	background-color : rgb(0, 0, 52);
+	width            : 300px;
+	position         : fixed;
+	bottom           : 10px;
+}
