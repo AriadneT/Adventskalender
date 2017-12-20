@@ -1,8 +1,8 @@
 body {
     background       : no-repeat;
-	background-image : url('../../../../../Adventskalender/Resources/Public/Images/Christmas_tree.jpg');
+	background-image : url('../../../../../Adventskalender/Resources/Public/Images/ChristmasTree.jpg');
     background-size  : cover;
-    background-color : red;
+    background-color : rgb(0, 0, 52);
 }
 
 h2 {
