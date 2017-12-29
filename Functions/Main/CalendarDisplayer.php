@@ -29,7 +29,6 @@ function showPage()
 			}
 		}
 	}
-	// var_dump($replacements);
 	
 	$HTML = 
 		file_get_contents('../Adventskalender/Resources/Private/Templates/Main.html');
