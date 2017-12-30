@@ -1,36 +1,8 @@
-var days = [
-	1,
-	2,
-	3,
-	4,
-	5,
-	6,
-	7,
-	8,
-	9,
-	10,
-	11,
-	12,
-	13,
-	14,
-	15,
-	16,
-	17,
-	18,
-	19,
-	20,
-	21,
-	22,
-	23,
-	24,
-	25
-];
-
 function arrangeCalendar() {
-	console.log('Hi');
 	reduceVolume();
 	
 	checkAvailability();
+	setIcons();
 }
 
 function reduceVolume() {
@@ -48,5 +20,12 @@ function checkAvailability() {
 		var day = today.getDate();
 		document.getElementsByTagName('h2')[0].innerHTML = 
 			'Merry Christmas! This advent calendar will be ready in 2018.';
+	}
+}
+
+function setIcons() {
+	for (day = 1; day < 26; day++) {
+		// Replace code below with code for substituting pictures
+		console.log(day);
 	}
 }

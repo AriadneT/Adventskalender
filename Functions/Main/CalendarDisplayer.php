@@ -15,8 +15,8 @@ function showPage()
 	} else {
 		$replacements['#message#'] = 
 			'Sorry, this advent calendar is not yet ready. It will be available in 2018.';
-		$days = $configurations['days'];
-		foreach ($days as $day) {
+			
+		for ($day = 1; $day < 26; $day++) {
 			// mday is day in month
 			if ($day <= $today['mday']) {
 				if (isset($configurations['icons'][$day])) {
