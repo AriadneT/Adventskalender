@@ -12,6 +12,11 @@ function showPage()
 	if ($today['month'] != 'December') {
 		$replacements['#message#'] = 
 			'Sorry, this advent calendar is only available in December.';
+		for ($day = 1; $day < 26; $day++) {
+			if (isset($configurations['closedWindows'][$day])) {
+				$replacements['#' . $day . '#'] = $configurations['closedWindows'][$day];
+			}
+		}
 	} else {
 		$replacements['#message#'] = 
 			'Sorry, this advent calendar is not yet ready. It will be available in 2018.';

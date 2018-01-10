@@ -14,22 +14,28 @@ h2 {
 	width  : 58px;
 }
 
-#day1 {
+#day1, #day2, #day3, #day4, #day5, #day6, #day7, #day8, #day9 ,#day10, #day11, #day12, #day13, #day14, #day15 {
 	position : relative;
-	left     : 320px;
-	top      : 0px;
+}
+
+#day1 {
+	left : 320px;
+	top  : 0px;
 }
 
 #day2 {
-	position : relative;
-	left     : 360px;
-	top      : 150px;
+	left : 360px;
+	top  : 150px;
 }
 
 #day3 {
-	position : relative;
-	left     : 150px;
-	top      : 200px;
+	left : 150px;
+	top  : 200px;
+}
+
+#day4 {
+	left : 39px;
+	top  : 290px;
 }
 
 footer {
