@@ -42,7 +42,7 @@ function showPage()
     $splitHTMLContent = preg_split('/[<">]/', $HTML);
     $toReplace = [];
     foreach ($splitHTMLContent as $subset) {
-        if (preg_match('/#[a-z1-9]+#/', $subset)) {
+        if (preg_match('/#[a-z0-9]+#/', $subset)) {
             $toReplace[] = $subset;
         }
     }

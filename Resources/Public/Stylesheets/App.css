@@ -14,7 +14,7 @@ h2 {
 	width  : 58px;
 }
 
-#day1, #day2, #day3, #day4, #day5, #day6, #day7, #day8, #day9 ,#day10, #day11, #day12, #day13, #day14, #day15 {
+#day1, #day2, #day3, #day4, #day5, #day6, #day7, #day8, #day9 ,#day10, #day11, #day12, #day13, #day14, #day15, #day16, #day17, #day18, #day19, #day20, #day21, #day22, #day23, #day24, #day25, footer {
 	position : relative;
 }
 
@@ -38,11 +38,115 @@ h2 {
 	top  : 290px;
 }
 
+#day5 {
+    left : 95px;
+    top  : 80px;
+}
+
+#day6 {
+    left : 95px;
+    top  : 650px;
+}
+
+#day7 {
+    left : 0px;
+    top  : 400px;
+}
+
+#day8 {
+    left : 95px;
+    top  : 512px;
+}
+
+#day9 {
+    left : 0px;
+    top  : 268px;
+}
+
+#day10 {
+    left : -289px;
+    top  : 441px;
+}
+
+#day11 {
+    left : 95px;
+    top  : 80px;
+}
+
+#day12 {
+    left : 95px;
+    top  : 80px;
+}
+
+#day13 {
+    left : 95px;
+    top  : 80px;
+}
+
+#day14 {
+    left : 95px;
+    top  : 80px;
+}
+
+#day15 {
+    left : 95px;
+    top  : 80px;
+}
+
+#day16 {
+    left : 95px;
+    top  : 80px;
+}
+
+#day17 {
+    left : 95px;
+    top  : 80px;
+}
+
+#day18 {
+    left : 95px;
+    top  : 80px;
+}
+
+#day19 {
+    left : 95px;
+    top  : 80px;
+}
+
+#day20 {
+    left : 95px;
+    top  : 80px;
+}
+
+#day21 {
+    left : 95px;
+    top  : 80px;
+}
+
+#day22 {
+    left : 95px;
+    top  : 80px;
+}
+
+#day23 {
+    left : 95px;
+    top  : 80px;
+}
+
+#day24 {
+    left : 95px;
+    top  : 80px;
+}
+
+#day25 {
+    left : 95px;
+    top  : 80px;
+}
+
 footer {
 	color            : lightgreen;
 	background-color : rgb(0, 0, 52);
-	position         : fixed;
-	bottom           : 5px;
+	top              : 600px;
 }
 
 #creativeCommonsImage {
