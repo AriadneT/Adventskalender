@@ -18,8 +18,7 @@ function checkAvailability() {
 			'Sorry, this advent calendar is only available in December.';
     } else {
 		var day = today.getDate();
-		document.getElementsByTagName('h2')[0].innerHTML = 
-			'Merry Christmas! This advent calendar will be ready in 2018.';
+		document.getElementsByTagName('h2')[0].innerHTML = '';
 	}
 }
 

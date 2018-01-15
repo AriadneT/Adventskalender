@@ -16,17 +16,14 @@ function showPage()
 			if (isset($configurations['closedWindows'][$day])) {
 				$replacements['#' . $day . '#'] = $configurations['closedWindows'][$day];
 			}
-		}
+		} 
 	} else {
-		$replacements['#message#'] = 
-			'Sorry, this advent calendar is not yet ready. It will be available in 2018.';
+		$replacements['#message#'] = '';
 			
 		for ($day = 1; $day < 26; $day++) {
 			// mday is day in month
 			if ($day <= $today['mday']) {
-				if (isset($configurations['icons'][$day])) {
-					$replacements['#' . $day . '#'] = $configurations['icons'][$day];
-				}
+				$replacements['#' . $day . '#'] = $configurations['icons'][$day];
 			} else {
 				if (isset($configurations['closedWindows'][$day])) {
 					$replacements['#' . $day . '#'] = $configurations['closedWindows'][$day];
@@ -38,7 +35,7 @@ function showPage()
 	$HTML = 
 		file_get_contents('../Adventskalender/Resources/Private/Templates/Main.html');
 		
-	// Find all words to be replaced. These have '#' before and after the word(s).
+	// Find all words to be replaced. These have '#' before and after the word.
     $splitHTMLContent = preg_split('/[<">]/', $HTML);
     $toReplace = [];
     foreach ($splitHTMLContent as $subset) {
