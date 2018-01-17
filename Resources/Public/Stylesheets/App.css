@@ -1,267 +1,148 @@
-@media screen and (min-width : 1253px) {
-    #day1 {
-        left : 350px;
-    }
-
-    #day2 {
-        left : 390px;
-        top  : 150px;
-    }
-
-    #day3 {
-        left : 180px;
-        top  : 200px;
-    }
-
-    #day4 {
-        left : 69px;
-        top  : 290px;
-    }
-
-    #day5 {
-        left : 125px;
-        top  : 80px;
-    }
-
-    #day6 {
-        left : 125px;
-        top  : 590px;
-    }
-
-    #day7 {
-        top : 430px;
-    }
-
-    #day8 {
-        left : 125px;
-        top  : 512px;
-    }
-
-    #day9 {
-        left : 30px;
-        top  : 298px;
-    }
-
-    #day10 {
-        left : -259px;
-        top  : 441px;
-    }
-
-    #day11 {
-        left : -485px;
-        top  : 613px;
-    }
-
-    #day12 {
-        left : -365px;
-        top  : 540px;
-    }
-
-    #day13 {
-        left : -295px;
-        top  : 340px;
-    }
-
-    #day14 {
-        left : -465px;
-        top  : 280px;
-    }
-
-    #day15 {
-        left : -199px;
-        top  : 610px;
-    }
-
-    #day16 {
-        left : -722px;
-        top  : 434px;
-    }
-
-    #day17 {
-        left : -960px;
-    }
-    
-    #day18 {
-        left : -20px;
-        top  : 60px;
-    }
-    
-    #day19 {
-        left : -630px;
-        top  : 470px;
-    }
-
-    #day20 {
-        left : -740px;
-        top  : 30px;
-    }
-
-    #day21 {
-        left : 325px;
-        top  : 566px;
-    }
-
-    #day22 {
-        left : 515px;
-        top  : 290px;
-    }
-
-    #day23 {
-        left : 390px;
-        top  : 540px;
-    }
-
-    #day24 {
-        left : 25px;
-        top  : 438px;
-    }
-    
-    #day25 {
-        left : 850px;
-        top  : -119px;
-    }
-    
-    footer {
-        top : 600px;
+@media screen and (min-width : 1848px) {
+    body {
+        width : 70%;
     }
 }
 
-@media screen and (min-width : 1237px) and (max-width : 1252px) {
-    #day1 {
-        left : 320px;
-    }
+#day1 {
+    left : 390px;
+}
 
-    #day2 {
-        left : 360px;
-        top  : 150px;
-    }
+#day2 {
+    left : 410px;
+    top  : 280px;
+}
 
-    #day3 {
-        left : 150px;
-        top  : 200px;
-    }
+#day3 {
+    left : 320px;
+    top  : 250px;
+}
 
-    #day4 {
-        left : 39px;
-        top  : 290px;
-    }
+#day4 {
+    left : 269px;
+    top  : 360px;
+}
 
-    #day5 {
-        left : 95px;
-        top  : 80px;
-    }
+#day5 {
+    left : 350px;
+    top  : 160px;
+}
 
-    #day6 {
-        left : 95px;
-        top  : 590px;
-    }
+#day6 {
+    left : 120px;
+    top  : 700px;
+}
 
-    #day7 {
-        top : 400px;
-    }
+#day7 {
+    left : 220px;
+    top  : 540px;
+}
 
-    #day8 {
-        left : 95px;
-        top  : 512px;
-    }
+#day8 {
+    left : 195px;
+    top  : 622px;
+}
 
-    #day9 {
-        top : 268px;
-    }
+#day9 {
+    left : 350px;
+    top  : 388px;
+}
 
-    #day10 {
-        left : -289px;
-        top  : 441px;
-    }
+#day10 {
+    left : 409px;
+    top  : 531px;
+}
 
-    #day11 {
-        left : -515px;
-        top  : 613px;
-    }
+#day11 {
+    left : 535px;
+    top  : 763px;
+}
 
-    #day12 {
-        left : -395px;
-        top  : 540px;
-    }
+#day12 {
+    left : 525px;
+    top  : 640px;
+}
 
-    #day13 {
-        left : -295px;
-        top  : 340px;
-    }
+#day13 {
+    left : 425px;
+    top  : 410px;
+}
 
-    #day14 {
-        left : -495px;
-        top  : 280px;
-    }
+#day14 {
+    left : 555px;
+    top  : 350px;
+}
 
-    #day15 {
-        left : -229px;
-        top  : 610px;
-    }
+#day15 {
+    left : 249px;
+    top  : 760px;
+}
 
-    #day16 {
-        left : -752px;
-        top  : 434px;
-    }
+#day16 {
+    left : 732px;
+    top  : 784px;
+}
 
-    #day17 {
-        left : -990px;
-    }
-    
-    #day18 {
-        left : -50px;
-        top  : 60px;
-    }
-    
-    #day19 {
-        left : -660px;
-        top  : 470px;
-    }
+#day18 {
+    left : 1130px;
+    top  : 100px;
+}
 
-    #day20 {
-        left : -750px;
-        top  : 30px;
-    }
+#day19 {
+    left : 650px;
+    top  : 700px;
+}
 
-    #day21 {
-        left : 295px;
-        top  : 566px;
-    }
+#day20 {
+    left : 480px;
+    top  : 210px;
+}
 
-    #day22 {
-        left : 485px;
-        top  : 290px;
-    }
+#day21 {
+    left : 315px;
+    top  : 606px;
+}
 
-    #day23 {
-        left : 360px;
-        top  : 540px;
-    }
+#day22 {
+    left : 555px;
+    top  : 490px;
+}
 
-    #day24 {
-        left : -5px;
-        top  : 438px;
-    }
-    
-    #day25 {
-        left : 820px;
-        top  : -119px;
-    }
-    
-    footer {
-        top : 600px;
-    }
+#day23 {
+    left : 400px;
+    top  : 670px;
+}
+
+#day24 {
+    left : 101px;
+    top  : 780px;
+}
+
+#day25 {
+    left : 1180px;
+    top  : 0px;
+}
+
+footer {
+    top : 860px;
+}
+
+body, footer {
+    margin : auto;
 }
 
 body {
-    background       : no-repeat;
-	background-image : url('../../../../../Adventskalender/Resources/Public/Images/ChristmasTree.jpg');
-    background-size  : cover;
-    background-color : rgb(0, 0, 52);
+    position              : relative;
+    background            : no-repeat;
+	background-image      : url('../../../../../Adventskalender/Resources/Public/Images/ChristmasTree.jpg');
+    background-size       : 70%;
+    background-color      : rgb(0, 0, 52);
+    background-position   : center top;
 }
 
 h2, footer {
-    color : lightgreen;
+    color            : lightgreen;
+    background-color : rgb(0, 0, 52);
 }
 
 .normalWindows {
@@ -270,7 +151,7 @@ h2, footer {
 }
 
 .normalWindows, #day18, #day25, footer {
-	position : relative;
+	position : absolute;
 }
 
 #day18 {
@@ -281,8 +162,4 @@ h2, footer {
 #day25 {
     height : 110px;
     width  : 110px;
-}
-
-footer {
-	background-color : rgb(0, 0, 52);
 }

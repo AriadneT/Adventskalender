@@ -13,9 +13,8 @@ function showPage()
 		$replacements['#message#'] = 
 			'Sorry, this advent calendar is only available in December.';
 		for ($day = 1; $day < 26; $day++) {
-			if (isset($configurations['closedWindows'][$day])) {
-				$replacements['#' . $day . '#'] = $configurations['closedWindows'][$day];
-			}
+			$replacements['#' . $day . '#'] = 
+                $configurations['closedWindows'][$day];
 		} 
 	} else {
 		$replacements['#message#'] = '';
@@ -23,11 +22,11 @@ function showPage()
 		for ($day = 1; $day < 26; $day++) {
 			// mday is day in month
 			if ($day <= $today['mday']) {
-				$replacements['#' . $day . '#'] = $configurations['icons'][$day];
+				$replacements['#' . $day . '#'] = 
+                    $configurations['icons'][$day];
 			} else {
-				if (isset($configurations['closedWindows'][$day])) {
-					$replacements['#' . $day . '#'] = $configurations['closedWindows'][$day];
-				}
+				$replacements['#' . $day . '#'] = 
+                    $configurations['closedWindows'][$day];
 			}
 		}
 	}
