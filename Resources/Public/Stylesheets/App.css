@@ -1,7 +1,401 @@
+@media screen and (min-width : 1226px) and (max-width : 1261px) {
+    body {
+        width               : 100%;
+        position            : relative;
+        background          : no-repeat;
+        background-image    : url('../../../../../Adventskalender/Resources/Public/Images/ChristmasTree.jpg');
+        background-size     : 100%;
+        background-position : center top;
+    }
+	
+	#day6 {
+		top : 640px;
+	}
+	
+	#day14 {
+		left : 535px;
+	}
+	
+	#day16 {
+		left : 680px;
+	}
+	
+	#day18 {
+		left : 1050px;
+	}
+	
+	#day19 {
+		left : 300px;
+		top  : 460px;
+	}
+	
+	#day20 {
+		left : 450px;
+	}
+	
+	#day11, #day15, #day16, #day24 {
+		top : 720px;
+	}
+
+	#day25 {
+		left : 1100px;
+	}
+	
+	footer {
+		top : 820px;
+	}
+}
+
+@media screen and (min-width : 1262px) and (max-width : 1347px) {
+    body {
+        width               : 100%;
+        position            : relative;
+        background          : no-repeat;
+        background-image    : url('../../../../../Adventskalender/Resources/Public/Images/ChristmasTree.jpg');
+        background-size     : 100%;
+        background-position : center top;
+    }
+	
+	#day6 {
+		top : 670px;
+	}
+	
+	#day14 {
+		left : 555px;
+	}
+	
+	#day16 {
+		left : 710px;
+	}
+	
+	#day18 {
+		left : 1050px;
+	}
+	
+	#day19 {
+		left : 650px;
+		top  : 700px;
+	}
+	
+	#day20 {
+		left : 480px;
+	}
+	
+	#day11, #day15, #day16, #day24 {
+		top : 750px;
+	}
+
+	#day25 {
+		left : 1100px;
+	}
+	
+	footer {
+		top : 820px;
+	}
+}
+
+@media screen and (min-width : 1348px) and (max-width : 1450px) {
+    body {
+        width               : 95%;
+        position            : relative;
+        background          : no-repeat;
+        background-image    : url('../../../../../Adventskalender/Resources/Public/Images/ChristmasTree.jpg');
+        background-size     : 95%;
+        background-position : center top;
+    }
+	
+	#day6 {
+		top : 690px;
+	}
+	
+	#day11 {
+		top : 763px;
+	}
+	
+	#day14 {
+		left : 555px;
+	}
+	
+	#day15 {
+		top : 760px;
+	}
+
+	#day16 {
+		left : 732px;
+		top  : 754px;
+	}
+	
+	#day18 {
+		left : 1100px;
+	}
+	
+	#day19 {
+		left : 650px;
+		top  : 700px;
+	}
+	
+	#day20 {
+		left : 480px;
+	}
+	
+	#day24 {
+		top : 765px;
+	}
+	
+	#day25 {
+		left : 1150px;
+	}
+	
+	footer {
+		top : 825px;
+	}
+}
+
+@media screen and (min-width : 1451px) and (max-width : 1634px) {
+    body {
+        width               : 90%;
+        position            : relative;
+        background          : no-repeat;
+        background-image    : url('../../../../../Adventskalender/Resources/Public/Images/ChristmasTree.jpg');
+        background-size     : 90%;
+        background-position : center top;
+    }
+	
+	#day6 {
+		top : 690px;
+	}
+	
+	#day11 {
+		top : 763px;
+	}
+	
+	#day14 {
+		left : 555px;
+	}
+	
+	#day15 {
+		top : 760px;
+	}
+
+	#day16 {
+		left : 732px;
+		top  : 754px;
+	}
+	
+	#day18 {
+		left : 1125px;
+	}
+	
+	#day19 {
+		left : 650px;
+		top  : 700px;
+	}
+	
+	#day20 {
+		left : 480px;
+	}
+	
+	#day24 {
+		top : 765px;
+	}
+	
+	#day25 {
+		left : 1175px;
+	}
+	
+	footer {
+		top : 825px;
+	}
+}
+
+@media screen and (min-width : 1635px) and (max-width : 1743px) {
+    body {
+        width               : 80%;
+        position            : relative;
+        background          : no-repeat;
+        background-image    : url('../../../../../Adventskalender/Resources/Public/Images/ChristmasTree.jpg');
+        background-size     : 80%;
+        background-position : center top;
+    }
+	
+	#day6 {
+		top : 700px;
+	}
+	
+	#day11 {
+		top : 763px;
+	}
+	
+	#day14 {
+		left : 555px;
+	}
+	
+	#day15 {
+		top : 760px;
+	}
+
+	#day16 {
+		left : 732px;
+		top  : 784px;
+	}
+	
+	#day18 {
+		left : 1130px;
+	}
+	
+	#day19 {
+		left : 650px;
+		top  : 700px;
+	}
+	
+	#day20 {
+		left : 480px;
+	}
+	
+	#day24 {
+		top : 780px;
+	}
+	
+	#day25 {
+		left : 1180px;
+	}
+	
+	footer {
+		top : 860px;
+	}
+}
+
+@media screen and (min-width : 1744px) and (max-width : 1847px) {
+    body {
+        width               : 75%;
+        position            : relative;
+        background          : no-repeat;
+        background-image    : url('../../../../../Adventskalender/Resources/Public/Images/ChristmasTree.jpg');
+        background-size     : 75%;
+        background-position : center top;
+    }
+	
+	#day6 {
+		top : 700px;
+	}
+	
+	#day11 {
+		top : 763px;
+	}
+	
+	#day14 {
+		left : 555px;
+	}
+	
+	#day15 {
+		top : 760px;
+	}
+
+	#day16 {
+		left : 732px;
+		top  : 784px;
+	}
+	
+	#day18 {
+		left : 1130px;
+	}
+	
+	#day19 {
+		left : 650px;
+		top  : 700px;
+	}
+	
+	#day20 {
+		left : 480px;
+	}
+	
+	#day24 {
+		top : 780px;
+	}
+	
+	#day25 {
+		left : 1180px;
+	}
+	
+	footer {
+		top : 860px;
+	}
+}
+
 @media screen and (min-width : 1848px) {
     body {
-        width : 70%;
+        width               : 70%;
+        position            : relative;
+        background          : no-repeat;
+        background-image    : url('../../../../../Adventskalender/Resources/Public/Images/ChristmasTree.jpg');
+        background-size     : 70%;
+        background-position : center top;
     }
+	
+	#day6 {
+		top : 700px;
+	}
+	
+	#day11 {
+		top : 763px;
+	}
+	
+	#day14 {
+		left : 555px;
+	}
+	
+	#day15 {
+		top : 760px;
+	}
+
+	#day16 {
+		left : 732px;
+		top  : 784px;
+	}
+	
+	#day18 {
+		left : 1130px;
+	}
+	
+	#day19 {
+		left : 650px;
+		top  : 700px;
+	}
+	
+	#day20 {
+		left : 480px;
+	}
+	
+	#day24 {
+		top : 780px;
+	}
+	
+	#day25 {
+		left : 1180px;
+	}
+	
+	footer {
+		top : 860px;
+	}
+}
+
+body, footer {
+    margin           : auto;
+	background-color : rgb(0, 0, 52);
+}
+
+h2, footer {
+    color            : lightgreen;
+    background-color : rgb(0, 0, 52);
+}
+
+.normalWindows {
+	height : 58px;
+	width  : 58px;
+}
+
+.normalWindows, #day18, #day25, footer {
+	position : absolute;
 }
 
 #day1 {
@@ -30,7 +424,6 @@
 
 #day6 {
     left : 120px;
-    top  : 700px;
 }
 
 #day7 {
@@ -55,7 +448,6 @@
 
 #day11 {
     left : 535px;
-    top  : 763px;
 }
 
 #day12 {
@@ -69,32 +461,20 @@
 }
 
 #day14 {
-    left : 555px;
     top  : 350px;
 }
 
 #day15 {
     left : 249px;
-    top  : 760px;
-}
-
-#day16 {
-    left : 732px;
-    top  : 784px;
 }
 
 #day18 {
-    left : 1130px;
-    top  : 100px;
-}
-
-#day19 {
-    left : 650px;
-    top  : 700px;
+    top    : 100px;
+	height : 40px;
+    width  : 40px;
 }
 
 #day20 {
-    left : 480px;
     top  : 210px;
 }
 
@@ -115,51 +495,10 @@
 
 #day24 {
     left : 101px;
-    top  : 780px;
 }
 
 #day25 {
-    left : 1180px;
-    top  : 0px;
-}
-
-footer {
-    top : 860px;
-}
-
-body, footer {
-    margin : auto;
-}
-
-body {
-    position              : relative;
-    background            : no-repeat;
-	background-image      : url('../../../../../Adventskalender/Resources/Public/Images/ChristmasTree.jpg');
-    background-size       : 70%;
-    background-color      : rgb(0, 0, 52);
-    background-position   : center top;
-}
-
-h2, footer {
-    color            : lightgreen;
-    background-color : rgb(0, 0, 52);
-}
-
-.normalWindows {
-	height : 58px;
-	width  : 58px;
-}
-
-.normalWindows, #day18, #day25, footer {
-	position : absolute;
-}
-
-#day18 {
-    height : 40px;
-    width  : 40px;
-}
-
-#day25 {
-    height : 110px;
+    top    : 0px;
+	height : 110px;
     width  : 110px;
 }
