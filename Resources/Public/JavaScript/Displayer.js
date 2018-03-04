@@ -1,8 +1,9 @@
 function arrangeCalendar() {
 	reduceVolume();
 	
-	checkAvailability();
-	setIcons();
+	var today = new Date();
+	checkAvailability(today);
+	setIcons(today);
 }
 
 function reduceVolume() {
@@ -10,8 +11,7 @@ function reduceVolume() {
 	audio.volume = 0.2;
 }
 
-function checkAvailability() {
-	var today = new Date();
+function checkAvailability(today) {
 	var month = today.getMonth();
     if (month < 11) {
         document.getElementsByTagName('h2')[0].innerHTML = 
@@ -22,9 +22,17 @@ function checkAvailability() {
 	}
 }
 
-function setIcons() {
+function setIcons(today) {
+	var dayInMonth = today.getDate();
 	for (day = 1; day < 26; day++) {
-		// Replace code below with code for substituting pictures
-		console.log(day);
+		var window = document.getElementById('day' + day);
+		if (day <= dayInMonth) {
+			window.src = 
+				'../../../../Adventskalender/Resources/Public/Images/Bauble.png';
+		} else {
+			window.src = 
+				'../../../../Adventskalender/Resources/Public/Images/Window' + 
+				day + '.png';
+		}
 	}
 }
