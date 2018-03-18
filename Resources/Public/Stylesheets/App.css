@@ -1,3 +1,64 @@
+@media screen and (min-width : 1080px) and (max-width : 1225px) {
+    body {
+        width               : 100%;
+        position            : relative;
+        background          : no-repeat;
+        background-image    : url('../../../../../Adventskalender/Resources/Public/Images/ChristmasTree.jpg');
+        background-size     : 100%;
+        background-position : center top;
+    }
+	
+	#day1 {
+		left : 330px;
+	}
+	
+	#day6 {
+		top : 540px;
+	}
+	
+	#day8 {
+		top  : 390px;
+	}
+	
+	#day12 {
+		left : 250px;
+		top  : 220px;
+	}
+	
+	#day14 {
+		left : 480px;
+	}
+	
+	#day16 {
+		left : 600px;
+	}
+	
+	#day18 {
+		left : 905px;
+	}
+	
+	#day19 {
+		left : 300px;
+		top  : 460px;
+	}
+	
+	#day20 {
+		left : 420px;
+	}
+	
+	#day11, #day15, #day16, #day23, #day24 {
+		top : 620px;
+	}
+
+	#day25 {
+		left : 955px;
+	}
+	
+	footer {
+		top : 710px;
+	}
+}
+
 @media screen and (min-width : 1226px) and (max-width : 1261px) {
     body {
         width               : 100%;
@@ -8,8 +69,21 @@
         background-position : center top;
     }
 	
+	#day1 {
+		left : 390px;
+	}
+	
 	#day6 {
 		top : 640px;
+	}
+	
+	#day8 {
+		top  : 622px;
+	}
+	
+	#day12 {
+		left : 525px;
+		top  : 640px;
 	}
 	
 	#day14 {
@@ -36,6 +110,10 @@
 	#day11, #day15, #day16, #day24 {
 		top : 720px;
 	}
+	
+	#day23 {
+		top  : 670px;
+	}
 
 	#day25 {
 		left : 1100px;
@@ -56,8 +134,21 @@
         background-position : center top;
     }
 	
+	#day1 {
+		left : 390px;
+	}
+	
 	#day6 {
 		top : 670px;
+	}
+	
+	#day8 {
+		top  : 622px;
+	}
+	
+	#day12 {
+		left : 525px;
+		top  : 640px;
 	}
 	
 	#day14 {
@@ -79,6 +170,10 @@
 	
 	#day20 {
 		left : 480px;
+	}
+	
+	#day23 {
+		top  : 670px;
 	}
 	
 	#day11, #day15, #day16, #day24 {
@@ -104,12 +199,25 @@
         background-position : center top;
     }
 	
+	#day1 {
+		left : 390px;
+	}
+	
 	#day6 {
 		top : 690px;
 	}
 	
+	#day8 {
+		top  : 622px;
+	}
+	
 	#day11 {
 		top : 763px;
+	}
+	
+	#day12 {
+		left : 525px;
+		top  : 640px;
 	}
 	
 	#day14 {
@@ -138,6 +246,10 @@
 		left : 480px;
 	}
 	
+	#day23 {
+		top  : 670px;
+	}
+	
 	#day24 {
 		top : 765px;
 	}
@@ -161,12 +273,25 @@
         background-position : center top;
     }
 	
+	#day1 {
+		left : 390px;
+	}
+	
 	#day6 {
 		top : 690px;
 	}
 	
+	#day8 {
+		top  : 622px;
+	}
+	
 	#day11 {
 		top : 763px;
+	}
+	
+	#day12 {
+		left : 525px;
+		top  : 640px;
 	}
 	
 	#day14 {
@@ -193,6 +318,10 @@
 	
 	#day20 {
 		left : 480px;
+	}
+	
+	#day23 {
+		top  : 670px;
 	}
 	
 	#day24 {
@@ -218,12 +347,25 @@
         background-position : center top;
     }
 	
+	#day1 {
+		left : 390px;
+	}
+	
 	#day6 {
 		top : 690px;
 	}
 	
+	#day8 {
+		top  : 622px;
+	}
+	
 	#day11 {
 		top : 763px;
+	}
+	
+	#day12 {
+		left : 525px;
+		top  : 640px;
 	}
 	
 	#day14 {
@@ -252,6 +394,10 @@
 		left : 480px;
 	}
 	
+	#day23 {
+		top  : 670px;
+	}
+	
 	#day24 {
 		top : 765px;
 	}
@@ -275,12 +421,25 @@
         background-position : center top;
     }
 	
+	#day1 {
+		left : 390px;
+	}
+	
 	#day6 {
 		top : 700px;
 	}
 	
+	#day8 {
+		top  : 622px;
+	}
+	
 	#day11 {
 		top : 763px;
+	}
+	
+	#day12 {
+		left : 525px;
+		top  : 640px;
 	}
 	
 	#day14 {
@@ -307,6 +466,10 @@
 	
 	#day20 {
 		left : 480px;
+	}
+	
+	#day23 {
+		top  : 670px;
 	}
 	
 	#day24 {
@@ -332,12 +495,25 @@
         background-position : center top;
     }
 	
+	#day1 {
+		left : 390px;
+	}
+	
 	#day6 {
 		top : 700px;
 	}
 	
+	#day8 {
+		top  : 622px;
+	}
+	
 	#day11 {
 		top : 763px;
+	}
+	
+	#day12 {
+		left : 525px;
+		top  : 640px;
 	}
 	
 	#day14 {
@@ -364,6 +540,10 @@
 	
 	#day20 {
 		left : 480px;
+	}
+	
+	#day23 {
+		top  : 670px;
 	}
 	
 	#day24 {
@@ -389,12 +569,25 @@
         background-position : center top;
     }
 	
+	#day1 {
+		left : 390px;
+	}
+	
 	#day6 {
 		top : 700px;
 	}
 	
+	#day8 {
+		top  : 622px;
+	}
+	
 	#day11 {
 		top : 763px;
+	}
+	
+	#day12 {
+		left : 525px;
+		top  : 640px;
 	}
 	
 	#day14 {
@@ -421,6 +614,10 @@
 	
 	#day20 {
 		left : 480px;
+	}
+	
+	#day23 {
+		top  : 670px;
 	}
 	
 	#day24 {
@@ -455,10 +652,6 @@ h2, footer {
 	position : absolute;
 }
 
-#day1 {
-    left : 390px;
-}
-
 #day2 {
     left : 410px;
     top  : 280px;
@@ -490,7 +683,6 @@ h2, footer {
 
 #day8 {
     left : 195px;
-    top  : 622px;
 }
 
 #day9 {
@@ -505,11 +697,6 @@ h2, footer {
 
 #day11 {
     left : 535px;
-}
-
-#day12 {
-    left : 525px;
-    top  : 640px;
 }
 
 #day13 {
@@ -547,7 +734,6 @@ h2, footer {
 
 #day23 {
     left : 400px;
-    top  : 670px;
 }
 
 #day24 {
