@@ -3,9 +3,9 @@ return [
 	'icons' => [
 		'1' => '../../../../Adventskalender/Resources/Public/Images/Bauble.png',
 		'2' => '../../../../Adventskalender/Resources/Public/Images/Dove.png',
-		'3' => '../../../../Adventskalender/Resources/Public/Images/Tree.png',
+		'3' => '../../../../Adventskalender/Resources/Public/Images/ChristmasTree.png',
 		'4' => '../../../../Adventskalender/Resources/Public/Images/Bow.png',
-		'5' => '../../../../Adventskalender/Resources/Public/Images/Bells.png',
+		'5' => '../../../../Adventskalender/Resources/Public/Images/ChristmasBells.png',
 		'6' => '../../../../Adventskalender/Resources/Public/Images/Present.png',
 		'7' => '../../../../Adventskalender/Resources/Public/Images/Candles.png',
 		'8' => '../../../../Adventskalender/Resources/Public/Images/CandyCane.png',

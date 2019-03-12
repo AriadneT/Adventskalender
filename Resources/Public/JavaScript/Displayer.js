@@ -1,9 +1,9 @@
 var images = [
 	'Bauble',
 	'Dove',
-	'Tree',
+	'ChristmasTree',
 	'Bow',
-	'Bells',
+	'ChristmasBells',
 	'Present',
 	'Candles',
 	'CandyCane',
@@ -36,22 +36,26 @@ function arrangeCalendar() {
 
 function reduceVolume() {
 	var audio = document.getElementsByTagName('audio')[0];
-	audio.volume = 0.2;
+	audio.volume = 0;
+	//audio.volume = 0.2;
 }
 
 function checkAvailability(today) {
 	var month = today.getMonth();
     if (month < 11) {
         document.getElementsByTagName('h2')[0].innerHTML = 
-			'Sorry, this advent calendar is only available in December.';
+			'Sorry, this calendar is only available in December. Enjoy these pictures in the meantime.';
 		var dayInMonth = today.getDate();
 		for (day = 1; day < 26; day++) {
 			var window = document.getElementById('day' + day);
-			window.src = imagePath + 'Window' + day + '.png';
+			window.style.display = 'none';
 		}
+		document.getElementsByTagName('h3')[0].style.display = 'none';
     } else {
 		document.getElementsByTagName('h2')[0].innerHTML = '';
 		setIcons(today);
+		var carousel = document.getElementById('icons');
+		carousel.style.display = 'none';
 	}
 }
 
