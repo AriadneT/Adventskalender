@@ -14,3 +14,4 @@ Keine.
 
 Die Webseite soll im Dezember (ab 2018) einen Adventskalender zeigen. Welche 
 Bilder gezeigt werden hängt davon ab, welcher Tag die Website abgerufen wird.
+
